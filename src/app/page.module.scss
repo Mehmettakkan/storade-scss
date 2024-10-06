@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .headerWrapper {
+    // Header wrapper stilleri
+  }
+  
+  .contentWrapper {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    width: 250px;
+    // Sidebar stilleri
+  }
+  
+  .main {
+    flex: 1;
+    // Ana içerik alanı stilleri
+  }
+  
+  .mainMobile {
+    // Mobil için ana içerik stilleri
+  }
+  
+  .mainDesktop {
+    // Masaüstü için ana içerik stilleri
+  }
+  
+  .heroSection {
+    // Hero bölümü stilleri
+  }
+  
+  .featuresSection {
+    // Özellikler bölümü stilleri
+  }
+  
+  .testimonialsSection {
+    // Müşteri yorumları bölümü stilleri
+  }
+  
+  .footer {
+    // Footer stilleri
+  }
+  
+  @media (max-width: 1023px) {
+    .contentWrapper {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      // Mobil için sidebar stilleri
+    }
+  }
