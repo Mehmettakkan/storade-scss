@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+  color: #111827;
+  text-decoration: none;
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #3751DD;
+  }
+  border-radius: 0.25rem;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.iconButton {
+  color: #4B5563;
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #3751DD;
+  }
+  border-radius: 0.25rem;
+}
+
+.nav {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+
+.menuList {
+  padding: 0.5rem 0;
+  list-style-type: none;
+}
+
+.menuItem {
+  border-bottom: 1px solid #F3F4F6;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.menuButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+    background-color: #F9FAFB;
+  }
+}
+
+.menuButtonText {
+  color: #111827;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.megaMenu {
+  background-color: #F9FAFB;
+  padding: 0.5rem 1rem;
+}
+
+.authButtons {
+  padding: 1rem;
+  border-top: 1px solid #E5E7EB;
+}
+
+.loginButton {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #F3F4F6;
+  color: #3751DD;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 9999px;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  &:hover {
+    background-color: #E5E7EB;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #3751DD;
+  }
+}
+
+.ctaButton {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #3751DD;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  &:hover {
+    background-color: #2c41b2;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #3751DD;
+  }
+}
